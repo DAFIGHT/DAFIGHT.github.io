@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">   <!-- Pour le responsive -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">   <!-- fontawesome -->
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">   <!-- bootstrap -->
+  <link href="https://fonts.googleapis.com/css?family=Allura" rel="stylesheet">   <!-- font nom navbar-->
+  <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">   <!-- font body -->
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">   <!-- font h -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">   <!-- animate.css -->
+  <link href="assets/css/hover.css" rel="stylesheet">   <!-- hover.css -->
+  <title>FIGHT</title>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="20">
+  <div class="container-fluid">
+    <h1 class="text-center">FIGHT !</h1>
+    <div id="badRow" class="row justify-content-between">
+      <div class="col-3">
+        <div class="card text-center mt-5">
+          <div class="card-header">
+            <h2>GoodMan</h2>
+            <div class="progress">
+              <div id="goodHpBar" class="progress-bar" role="progressbar" style="width: 410px" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">HP</div>
+            </div>
+          </div>
+          <div class="card-body">
+            <img id="goodman" src="assets/img/goodman.png" class="card-img-top" alt="..." />
+          </div>
+          <div class="card-footer">
+            <button id="megaPunch" type="button">Méga Punch</button>
+            <button id="fly" type="button">Vol</button>
+            <button id="sacredRay" type="button">Rayon Sacré</button>
+            <button id="godSpliff" type="button">Pétou Magique</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card text-center mb-5">
+          <div class="card-header">
+            <h2>Dévilax</h2>
+            <div class="progress">
+              <div id="badHpBar" class="progress-bar" role="progressbar" style="width: 410px" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">HP</div>
+            </div>
+          </div>
+          <div class="card-body">
+            <img id="devilax" src="assets/img/devilax.png" class="card-img-top" alt="..." />
+          </div>
+          <div class="card-footer">
+            <button id="lick" type="button">Léchouille</button>
+            <button id="fireSpit" type="button">Crachat de feu</button>
+            <button id="tail" type="button">Coup de queue</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> <!-- /container -->
+  <script src="assets/js/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libms/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
